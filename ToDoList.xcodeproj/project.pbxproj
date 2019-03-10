@@ -15,6 +15,7 @@
 		C335932622350A9F0023DA08 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C335932522350A9F0023DA08 /* ToDoViewController.swift */; };
 		C335932822350AB40023DA08 /* DoingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C335932722350AB40023DA08 /* DoingViewController.swift */; };
 		C335932A22350ABC0023DA08 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C335932922350ABC0023DA08 /* DoneViewController.swift */; };
+		C335932E22350E660023DA08 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C335932D22350E660023DA08 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C335932522350A9F0023DA08 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		C335932722350AB40023DA08 /* DoingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoingViewController.swift; sourceTree = "<group>"; };
 		C335932922350ABC0023DA08 /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
+		C335932D22350E660023DA08 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		C33593032235072B0023DA08 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				C335932C22350E3F0023DA08 /* Models */,
 				C335932422350A840023DA08 /* ViewControllers */,
 				C33593042235072B0023DA08 /* AppDelegate.swift */,
 				C33593082235072B0023DA08 /* Main.storyboard */,
@@ -108,6 +111,14 @@
 				C335932922350ABC0023DA08 /* DoneViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C335932C22350E3F0023DA08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C335932D22350E660023DA08 /* ToDo.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C335932A22350ABC0023DA08 /* DoneViewController.swift in Sources */,
+				C335932E22350E660023DA08 /* ToDo.swift in Sources */,
 				C335932822350AB40023DA08 /* DoingViewController.swift in Sources */,
 				C335932622350A9F0023DA08 /* ToDoViewController.swift in Sources */,
 				C33593052235072B0023DA08 /* AppDelegate.swift in Sources */,
